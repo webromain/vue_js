@@ -170,6 +170,7 @@ body.light {
 body {
   background: var(--bg-gradient);
   background-attachment: fixed;
+  overflow-x: hidden;
 }
 
 .app-header {

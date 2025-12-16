@@ -26,7 +26,9 @@ export default {
 <style scoped>
 .baniere img {
   display: flex;
-  width: 100%;
+  width: calc(100% - 1rem);
+  margin: 0 0.5rem 0 0.5rem;
+  border-radius: var(--border);
 }
 
 h1 {

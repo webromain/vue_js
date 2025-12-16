@@ -67,7 +67,7 @@ export default {
   border: 1px solid var(--glass-border);
   color: var(--text);
   border-radius: 0.75rem;
-  padding: 1rem;
+  padding: 3rem;
   margin: 0.5rem;
   box-shadow: var(--shadow-s);
   text-align: left;
