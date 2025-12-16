@@ -1,0 +1,30 @@
+:root {
+  /*COLORS*/
+  --primary: oklch(60.025% 0.1905 263.099);
+  --primary-dark: oklch(33.227% 0.11516 262.695);
+  /*BACKGROUND-COLORS*/
+  --bg-dark: oklch(0.1 0 264);
+  --bg: oklch(0.2 0 264);
+  --bg-lght: oklch(0.3 0 264);
+  /*TEXT-COLORS*/
+  --text: oklch(0.96 0 264);
+  --text-muted: oklch(0.76 0 264);
+  /*SHADOWS-COLORS*/
+  --box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.08);
+  --shadow-s: inset 0 1px 2px #ffffff30, 0 1px 2px #00000030,
+    0 2px 4px #00000015;
+}
+
+body.light {
+  /*BACKGROUND-COLORS*/
+  --bg-dark: oklch(0.92 0 264);
+  --bg: oklch(0.96 0 264);
+  --bg-light: oklch(1 0 264);
+  /*BACKGROUND-COLORS*/
+  --text: oklch(0.15 0 264);
+  --text-muted: oklch(0.4 0 264);
+}
+
+body {
+  background: var(--bg-dark);
+}
