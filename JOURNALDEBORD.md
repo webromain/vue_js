@@ -1,12 +1,8 @@
 # JOURNAL DE BORD - ROMAIN POISSON
 
-- Prise en main de Vue CLI
-- Modification du titre en fonction de la page via une fonction du router
--
-
 ## Partie 1 — Démarrage
 
-- Ajout d’un logo minimal SVG (src/assets/logo.svg) et intégration dans la navbar `App.vue`.
+- Ajout d’un logo minimal PNG (src/assets/logo.png) et intégration dans la navbar `App.vue`.
 - Mise en place d’un toggle de thème clair/sombre en liant la classe `light` sur `body` (persistance localStorage).
 
 ## Partie 2 — Données dynamiques
@@ -38,6 +34,29 @@
 
 - Création de `ProductCard.vue` (cartes réutilisables) et `ProductForm.vue` (ajout/édition).
 - Communication via `props` + `$emit`.
+
+## Partie 7 — UI « Clear Glass » et fond
+
+- Ajout d’un fond dégradé multicolore doux (variables CSS) visible sous les surfaces vitrées.
+- Application d’un style verre (glassmorphism) sur header, toolbar, cartes, modals et footer (backdrop-filter, border, ombres).
+- Ajustements responsive des grilles et cartes (breakpoints 1024/768/480).
+
+## Partie 8 — Meilleurs produits (Home)
+
+- Création du composant `BestProducts.vue` et intégration dans `HomeView.vue` sous la bannière.
+- Réutilisation de `ProductCard` en mode carte verticale, texte non tronqué, grille responsive.
+
+## Partie 9 — Persistance (localStorage)
+
+- Centralisation des données produits dans `src/data/products.js` avec persistance `localStorage`.
+- Clé `catalog:products` pour les produits; chargement initial depuis un jeu de données (seed), puis sauvegarde après création/édition/suppression.
+- Persistance des préférences UI: clé `catalog:viewMode` pour le mode d’affichage du catalogue.
+
+## Partie 10 — Correctifs & UX
+
+- Lisibilité améliorée des `<select>` de la toolbar en thème clair.
+- Z-index des modals relevé pour ne pas passer sous le footer.
+- Grille « strict » élargie et cartes harmonisées en disposition verticale pour éviter le rognage d’images.
 
 ## Idées/Extensions
 

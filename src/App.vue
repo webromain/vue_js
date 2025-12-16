@@ -1,7 +1,8 @@
 <template>
   <header class="app-header">
     <div class="brand">
-      <img class="logo" src="@/assets/logo.svg" alt="Bagagerie IT" />
+      <img class="logo" src="@/assets/logo.png" alt="Bagagerie IT" />
+      <span>Bagagerie IT</span>
     </div>
     <nav class="main-nav">
       <router-link to="/">Accueil</router-link>
